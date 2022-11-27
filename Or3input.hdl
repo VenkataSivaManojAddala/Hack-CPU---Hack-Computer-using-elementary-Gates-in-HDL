@@ -1,0 +1,9 @@
+CHIP Or3input {
+    IN a, b, c;
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+   Or(a=a,b=b,out=ab);
+   Or(a=ab,b=c,out=out);
+}
